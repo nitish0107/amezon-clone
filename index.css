@@ -1,0 +1,401 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.nav-bar{
+    width: 100%;
+    height: 60px; 
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+   
+    
+}
+.nav-logo{
+    height: 50px;
+    width: 190px;
+    color: aliceblue;
+    display: flex;
+    
+    align-items: center;
+    text-align: center;
+}
+.logo{
+    background-image: url("th\ \(1\).jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    
+    margin-left: 20px;
+
+}
+.box{
+    border: 2px solid transparent;
+}
+.box:hover{
+    border: 1.5px solid white;
+}
+.address{
+    width: 220px;
+    height: 50px;
+    color: aliceblue;
+    display: flex;justify-content: center;
+    align-items: center;
+
+}
+.address-first{
+    font-size: 13px;
+}
+.address-second{
+    font-weight: bold;
+}
+.search-bar{
+    display: flex;
+    width: 620px;
+    height: 50px;
+    border-radius: 4px;
+}
+.select-option{
+    width: 50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.input-option{
+    width: 570px;
+    border: none;
+    font-weight: bold;
+}
+.sign{
+    width: 160px;
+    height: 50px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+.account{
+    font-weight: bold;
+}
+.downnab{
+    width: 100%;
+    height: 35px;
+    background-color: #343636;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.space{
+    width: 600px;
+}
+.main{
+    height: 300px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-image: url(gh.jpg);
+}
+.downmain{
+    height: 200px;
+
+    margin-left: 15px;
+    margin-right: 15px;
+    background-image: url(PC.jpg);
+}
+.item{
+    height: 400px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: rgb(243, 199, 104);
+} 
+.itemes{
+    height: 400px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: rgb(124, 120, 117);
+} 
+.items{
+    height: 400px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: rgb(189, 186, 177);
+} 
+.item h2{
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.itemes h2{
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.items h2{
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;}
+.boxx{
+    height: 300px;
+   display: flex;
+   justify-content: space-evenly;
+   
+}
+.boxxx{
+    height: 270px;
+    width: 15%;
+    padding: 5px;
+background-color: azure;
+}
+
+.img{ 
+    height: 200px;
+    background-image: url("box1.jpg");
+    background-size: cover;
+
+}
+.paira{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.img2{ 
+    height: 200px;
+    background-image: url("box2.jpg");
+    background-size: cover;}
+.img3{ 
+        height: 200px;
+        background-image: url("box3.jpg");
+        background-size: cover;}
+.img4{ 
+        height: 200px;
+        background-image: url("box4.jpg");
+        background-size: cover;}
+        
+.img5{ 
+        height: 200px;
+        background-image: url("box5.jpg");
+        background-size: cover;}
+                
+                
+.img6{ 
+        height: 200px;
+        background-image: url("box6.jpg");
+        background-size: cover;}
+.img7{ 
+            height: 200px;
+            background-image: url("box7.jpg");
+            background-size: cover;}
+        
+.img8{ 
+            height: 200px;
+            background-image: url("box8.jpg");
+            background-size: cover;}
+.img9{ 
+                height: 200px;
+                background-image: url("box9.jpg");
+                background-size: cover;}
+.img10{ 
+                height: 200px;
+                background-image: url("box10.jpg");
+                background-size: cover;}
+                
+.img11{ 
+                height: 200px;
+                background-image: url("box11.jpg");
+                background-size: cover;}
+                        
+                        
+.img12{ 
+                height: 200px;
+                background-image: url("box12.jpg");
+                background-size: cover;}
+.imge{
+    height: 90px;
+    margin: 7px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.imges{
+    height: 90px;
+    margin: 7px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bx1{
+    height: 90px;
+    width: 40%;
+    margin: 5px;
+    background-image: url("boxs1.jpg");
+    background-size: cover;
+
+}
+.bx2{
+    height: 90px;
+    width: 40%;
+    background-image: url("boxs2.jpg");
+    background-size: cover;
+    margin: 5px;
+}
+.bx3{
+    height: 90px;
+    width: 40%;
+    background-image: url("boxs3.jpg");
+    background-size: cover;
+    margin: 5px;
+}
+
+.bx4{
+    height: 90px;
+    width: 40%;
+    background-image: url("boxs4.jpg");
+    background-size: cover;
+    margin: 5px;
+    
+}
+.bx5{
+    height: 90px;
+    width: 40%;
+    margin: 5px;
+    background-image: url("boxs5.jpg");
+    background-size: cover;
+
+}
+.bx6{
+    height: 90px;
+    width: 40%;
+    background-image: url("boxs6.jpg");
+    background-size: cover;
+    margin: 5px;
+}
+.bx7{
+    height: 90px;
+    width: 40%;
+    background-image: url("boxs7.jpg");
+    background-size: cover;
+    margin: 5px;
+}
+
+.bx8{
+    height: 90px;
+    width: 40%;
+    background-image: url("boxs8.jpg");
+    background-size: cover;
+    margin: 5px;
+    
+}
+.bx9{
+    height: 90px;
+    width: 40%;
+    margin: 5px;
+    background-image: url("boxs9.jpg");
+    background-size: cover;
+
+}
+.bx10{
+    height: 90px;
+    width: 40%;
+    background-image: url("boxs10.jpg");
+    background-size: cover;
+    margin: 5px;
+}
+.bx11{
+    height: 90px;
+    width: 40%;
+    background-image: url("boxs11.jpg");
+    background-size: cover;
+    margin: 5px;
+}
+
+.bx12{
+    height: 90px;
+    width: 40%;
+    background-image: url("boxs12.jpg");
+    background-size: cover;
+    margin: 5px;
+    
+}
+.gototop{
+    height: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #4f5052;
+    color: #faf9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gototop a{
+    color: #faf9f9;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.footers{
+    height: 400px;
+    color: #faf9f9;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #0f1111;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.fotterbox1{
+    height: 350px;
+    color: #faf9f9;
+    width: 23%;
+    
+    margin-top: 25px;
+    ;
+}
+.footerbox2{
+    height: 350px;margin-top: 25px;
+    color: #faf9f9;
+    width: 23%;
+    
+    margin-top: 25px;
+}
+.fotterbox3{
+    height: 350px;
+    color: #faf9f9;
+    width: 23%;
+   
+    margin-top: 25px;
+}
+.bo a{
+    color: #faf9f9;
+    
+    padding-top: 15px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.downlogo{ 
+   
+    height: 80px;
+   
+    background-color: #0f1111;
+    margin-left: 15px;
+    margin-top: .5px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.log{
+    background-image: url("th\ \(1\).jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 50px;
+    width: 120px;
+}
